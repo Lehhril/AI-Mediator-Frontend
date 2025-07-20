@@ -1,9 +1,8 @@
+import LandingMain from '@/features/landing-page/LandingMain'
 import React from 'react'
 
 const page = () => {
-  return (
-    <div className='bg-red-300'>Home</div>
-  )
+  return <LandingMain />
 }
 
 export default page
